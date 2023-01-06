@@ -1,0 +1,101 @@
+ body{
+  margin: 0px;
+  padding: 0px;
+  font-family:"Rubik";
+  background-color: #F2F2F2;
+}
+
+a{
+  background: none;
+  border: 0px;
+  width: 100%;
+  text-decoration: none;
+  color: #000000;
+}
+.menu .back:hover{
+  background: #F2F2F2;
+  border: 0px;
+}
+
+.gamesmenu a:hover{
+  background: #F2F2F2;
+  border: 0px;
+}
+
+
+.leftside{
+  position: fixed;
+  box-shadow: 0px 0px 48px -15px #000000;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.headbar{
+  position: absolute;
+  height: 100%;
+  width: 80px;
+  display: grid;
+  grid-template-rows: 10% 20% 50% 15% 5%;
+  background-color: #F2F2F2;
+
+}
+.leftside:hover .menu{
+  left: 80px;
+
+}
+
+.menu{
+  position: absolute;
+  left:-160px;
+  height: 100%;
+  width: 250px;
+  background-color: #ffffff;
+  color: #000000;
+  display: grid;
+  grid-template-rows: 10% 20% 50% 15% 5%;
+  transition: 0.5s;
+}
+
+.headbar .head, .menu .head{
+  grid-row-start: 2;
+  align-self: center;
+}
+.headbar .gamesmenu, .menu .gamesmenu{
+  grid-row-start: 3;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.headbar .back, .menu .back{
+  grid-row-start: 4;
+  align-self: center;
+}
+
+svg{
+  margin: 15px;
+  width:3em;
+  height:3em;
+}
+
+
+
+h1, h2{
+  margin: 40px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.body{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+}
+.game{
+
+  border: 5px solid #000000;
+  align-self: center;
+}

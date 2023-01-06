@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /proba*
+Host: www.maxandfather.ru
+Sitemap: http://maxandfather.ru/sitemap.xml
